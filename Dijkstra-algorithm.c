@@ -33,7 +33,7 @@ void dijkstra(int graph[V][V], int src) {
             if (!visited[v] && graph[u][v] && dist[u] != INT_MAX && dist[u]+graph[u][v] < dist[v]) {
                 dist[v] = dist[u] + graph[u][v];
             } 
-        }
+        } 
     }
 
     printf("Vertex \t Distance from Source\n");
