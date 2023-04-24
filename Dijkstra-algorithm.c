@@ -32,7 +32,7 @@ void dijkstra(int graph[V][V], int src) {
         for (int v = 0; v < V; v++) {
             if (!visited[v] && graph[u][v] && dist[u] != INT_MAX && dist[u]+graph[u][v] < dist[v]) {
                 dist[v] = dist[u] + graph[u][v];
-            }
+            } 
         }
     }
 
