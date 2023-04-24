@@ -22,7 +22,7 @@ void dijkstra(int graph[V][V], int src) {
         dist[i] = INT_MAX;
         visited[i] = 0;
     }
-
+ 
     dist[src] = 0;
 
     for (int count = 0; count < V-1; count++) {
