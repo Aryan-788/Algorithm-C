@@ -48,7 +48,7 @@ void bfs(int graph[][100], int num_nodes, int start_node) {
                 visited[i] = 1;
                 enqueue(i);
             }
-        }
+        } 
     }
 }
 
