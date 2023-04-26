@@ -11,7 +11,7 @@ int front = -1, rear = -1;
 void enqueue(int data) {
     if (rear == MAX_QUEUE_SIZE - 1) {
         printf("Queue overflow!\n");
-        exit(1);
+        exit(1); 
     }
     if (front == -1) {
         front = 0;
